@@ -1,6 +1,8 @@
 body {
     font-family: "Roboto",
         sans-serif;
+        color: #434455;
+        background-color: #FFFFFF;
 }
 ul {
     list-style: none;
@@ -13,6 +15,7 @@ button {
     cursor: pointer;
 }
 .logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -23,12 +26,19 @@ button {
 .logo-part {
     color: #2E2F42;
 }
+
 .header-menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    c #2E2F42;
+}
+.header-menu-link:focus {
+    color: #404BBF;
+}
+.header-menu-link:hover {
+    color: #404BBF;
 }
 .address-menu-link {
     font-weight: 400;
@@ -36,6 +46,15 @@ button {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.address-menu-link:hover {
+    color: #404bbf;
+}
+.address-menu-link:focus {
+    color: #404bbf;
+}
+.address {
+    font-style: normal;
 }
 .hero {
      background: #2E2F42;
@@ -49,11 +68,18 @@ button {
     color: #FFFFFF;
 }
 .hero-order-btn {
+    background-color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+}
+.hero-order-btn:hover {
+    background-color: #404BBF
+}
+.hero-order-btn:focus {
+    background-color: #404BBF
 }
 .features-subtitle {
     font-weight: 500;
@@ -69,13 +95,20 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+.team {
+    background-color: #F4F4FD
+}
 .team-title {
     font-weight: 700;
+    text-transform: capitalize;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2E2F42;
+}
+.team-item {
+    background-color: #FFFFFF
 }
 .team-subtitle {
     font-weight: 500;
@@ -95,6 +128,7 @@ color: #434455;
 }
 .portfolio-title {
     font-weight: 700;
+    text-transform: capitalize;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -116,6 +150,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .footer-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
