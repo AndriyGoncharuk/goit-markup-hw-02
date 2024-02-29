@@ -40,12 +40,8 @@ button {
 .header-menu-link:hover {
     color: #404BBF;
 }
-.address-menu-link {
-    font-size: 16px;
-    line-height: 1.50;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
+
 .address-menu-link:hover {
     color: #434455;
 }
