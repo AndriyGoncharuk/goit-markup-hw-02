@@ -40,13 +40,17 @@ button {
 .header-menu-link:hover {
     color: #404BBF;
 }
-
-
-.address-menu-link:hover {
+.address-menu-link {
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
     color: #434455;
 }
+.address-menu-link:hover {
+    color: #404BBF;
+}
 .address-menu-link:focus {
-    color: #434455;
+    color: #404BBF;
 }
 .address {
     font-style: normal;
