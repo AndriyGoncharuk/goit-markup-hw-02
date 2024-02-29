@@ -41,11 +41,10 @@ button {
     color: #404BBF;
 }
 .address-menu-link {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
 }
 .address-menu-link:hover {
     color: #434455;
